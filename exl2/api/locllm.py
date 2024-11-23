@@ -34,7 +34,7 @@ class LocLLMManager:
         model_name_short: str | None = None,
     ):
         if weight_format not in self.SUPPORTED_FORMATS:
-            raise ValueError(f"{weight_format} not supported. Must be one of: {','.joinself.SUPPORTED_FORMATS}")
+            raise ValueError(f"{weight_format} not supported. Must be one of: {','.join(self.SUPPORTED_FORMATS)}")
         if not model_name_short:
             model_name_short = model_name
         self.model_name_short = model_name_short
