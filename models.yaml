@@ -1,0 +1,6 @@
+Models:
+  Qwen2.5-14B:
+    llm_path: Qwen_Qwen2.5-14B-Instruct-8_0bpw_exl2
+    prompt_format: chatml
+    max_position_embeddings: max_position_embeddings
+    weight_format: exl2
